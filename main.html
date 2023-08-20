@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="LastCommentsPage.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
     <!-- Bootstrap JS -->
@@ -337,89 +337,18 @@
                 </div>
               </li>
               <!-- Login -->
-              <li id="login_nav">
-                <div class="dropdown-center">
-                  <a id="Login" class="btn dropdown-toggle border-0 text-decoration-none" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <!-- <img src="Images/userLogin.svg" alt=""> -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                      <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                    </svg>
-                    <span class="position-absolute" style="top: 12px; left: -2px;">
-                      <img id="img_q_login" src="Images/question.png" class="rounded-circle p-1" width="30" height="30" alt="">
-                    </span>
-                  </a>
-                  <ul id="login_drpdown" class="dropdown-menu fs-12px">
-                    <li class="d-block">
-                      <h6>خوش آمدید UserName</h6>
-                    </li>
-                    <li class="d-block">
-                      <a class="dropdown-item" href="UserProfile.html">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person-fill not_svg" viewBox="0 0 16 16">
-                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                          </svg>
-                        </span>
-                        <span>پروفایل</span>
-                      </a>
-                    </li>
-                    <li class="d-block">
-                      <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#FavoriteModal" style="cursor: pointer;">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" 
-                               class="bi bi-heart-fill not_svg" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                          </svg>
-                        </span>
-                        <span>علاقه مندی ها</span>
-                        <span class="d-inline-block rounded-circle bg-danger pt-1 pb-1 text-center" style="width: 22px; height: 22px; color: #fff;">3</span>
-                      </a>
-                    </li>
-                    <li class="d-block">
-                      <a class="dropdown-item" href="NewPostsPage.html">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-files not_svg" viewBox="0 0 16 16">
-                            <path d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z"/>
-                          </svg>
-                        </span>
-                        <span>جدیدترین مطالب بعد از آخرین ورود شما</span>
-                      </a>
-                    </li>
-                    <li class="d-block">
-                      <a class="dropdown-item" href="LastCommentsPage.html">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-dots not_svg" viewBox="0 0 16 16">
-                            <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
-                            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                          </svg>
-                        </span>
-                        <span>آخرین نظرات</span>
-                      </a>
-                    </li>
-                    <li class="d-block">
-                      <a class="dropdown-item" href="Last30NewsPage.html">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-heading not_svg" viewBox="0 0 16 16">
-                            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
-                            <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1z"/>
-                          </svg>
-                        </span>
-                        <span>لیست 30 مطلب آخر</span>
-                      </a>
-                    </li>
-                    <li class="d-block">
-                      <a class="dropdown-item" href="#">
-                        <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right not_svg" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
-                            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
-                          </svg>
-                        </span>
-                        <span>خروج از سایت</span>
-                      </a>
-                    </li>
-                  </ul> 
-                </div>
+              <li>
+                <a class="btn border-0 text-decoration-none position-relative" data-bs-toggle="modal" data-bs-target="#LoginModal">
+                  <!-- <img src="Images/userLogin.svg" alt=""> -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
+                  <span class="position-absolute" style="top: 12px; left: -2px;">
+                    <img id="img_q_login" src="Images/question.png" class="rounded-circle p-1"
+                         width="30" height="30" alt="">
+                  </span>
+                </a>
               </li>
               <!-- Search -->
               <li class="">
@@ -908,157 +837,46 @@
                 </div>
               </div>
             </div>
-            <!-- Modal_Favorite -->
-            <div class="modal fade " id="FavoriteModal" tabindex="-1" aria-labelledby="FavoriteModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
+            <!-- Modal_Login -->
+            <div class="modal fade " id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header p-0">
-                    <h2 id="FavoriteModalLabel" class="modal-title fs-6 col-12 p-2 text-dark" style="background-color: #f5f5f5;">
+                    <h2 class="modal-title fs-5 bg-primary col-12 p-3 text-white" id="LoginModalLabel">
                       <span>
                         <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                       </span>
-                      لیست مطالب مورد علاقه
-                    </h2>
+                      ورود به سایت
+                      <button type="button" class="btn-close float-end pt-3 text-white" data-bs-dismiss="modal" aria-label="Close"></button> 
+                    </h2>           
                   </div>
-                  <div class="modal-body">
-                    <table class="table table-borderless table-striped col-12 float-start fs-12px">
-                      <tbody>
-                        <tr>
-                          <td class="col text-center">
-                            <span data-bs-title="حذف از علاقه مندی ها" type="button"
-                                  data-bs-toggle="tooltip" data-bs-placement="top">
-                              <svg xmlns="http://www.w3.org/2000/svg" style="color: red;" 
-                                   width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                              </svg>
-                            </span>
-                          </td>
-                          <td class="col text-start">
-                            <a href="SecondPage.html">
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
-                            </a>
-                          </td>
-                          <td class="col text-end">
-                            <span>
-                              (23 آذر 1401)
-                            </span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="col text-center">
-                            <span data-bs-title="حذف از علاقه مندی ها" type="button"
-                                  data-bs-toggle="tooltip" data-bs-placement="top">
-                              <svg xmlns="http://www.w3.org/2000/svg" style="color: red;" 
-                                   width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                              </svg>
-                            </span>
-                          </td>
-                          <td class="col text-start">
-                            <a href="SecondPage.html">
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
-                            </a>
-                          </td>
-                          <td class="col text-end">
-                            <span>
-                              (23 آذر 1401)
-                            </span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="col text-center">
-                            <span data-bs-title="حذف از علاقه مندی ها" type="button"
-                                  data-bs-toggle="tooltip" data-bs-placement="top">
-                              <svg xmlns="http://www.w3.org/2000/svg" style="color: red;" 
-                                   width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                              </svg>
-                            </span>
-                          </td>
-                          <td class="col text-start">
-                            <a href="SecondPage.html">
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
-                            </a>
-                          </td>
-                          <td class="col text-end">
-                            <span>
-                              (23 آذر 1401)
-                            </span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="col text-center">
-                            <span data-bs-title="حذف از علاقه مندی ها" type="button"
-                                  data-bs-toggle="tooltip" data-bs-placement="top">
-                              <svg xmlns="http://www.w3.org/2000/svg" style="color: red;" 
-                                   width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                              </svg>
-                            </span>
-                          </td>
-                          <td class="col text-start">
-                            <a href="SecondPage.html">
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
-                            </a>
-                          </td>
-                          <td class="col text-end">
-                            <span>
-                              (23 آذر 1401)
-                            </span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="col text-center">
-                            <span data-bs-title="حذف از علاقه مندی ها" type="button"
-                                  data-bs-toggle="tooltip" data-bs-placement="top">
-                              <svg xmlns="http://www.w3.org/2000/svg" style="color: red;" 
-                                   width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                              </svg>
-                            </span>
-                          </td>
-                          <td class="col text-start">
-                            <a href="SecondPage.html">
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
-                            </a>
-                          </td>
-                          <td class="col text-end">
-                            <span>
-                              (23 آذر 1401)
-                            </span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="col text-center">
-                            <span data-bs-title="حذف از علاقه مندی ها" type="button"
-                                  data-bs-toggle="tooltip" data-bs-placement="top">
-                              <svg xmlns="http://www.w3.org/2000/svg" style="color: red;" 
-                                   width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-                              </svg>
-                            </span>
-                          </td>
-                          <td class="col text-start">
-                            <a href="SecondPage.html">
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
-                            </a>
-                          </td>
-                          <td class="col text-end">
-                            <span>
-                              (23 آذر 1401)
-                            </span>
-                          </td>
-                        </tr>
-                        <script>
-                          const tooltipTriggerList_Favorite_modal = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-                          const tooltipList_Favorite_modal = [...tooltipTriggerList_Favorite_modal].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-                        </script>
-                      </tbody>
-                    </table>
-                  </div>
-                  <div class="modal-footer">
-                    <a type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</a>
-                    <a href="FavoritePage.html" class="btn btn-secondary">مشاهده بیشتر</a>
+                  <div class="modal-body pt-2 pb-3 p-3 pb-3" style="min-height: 300px;">
+                    <div class="col-12 float-start pt-2 pb-3 p-2">
+                      <!-- UserName -->
+                      <div class="input-group mb-3 float-start">
+                        <label for="UserName" class="form-label col-12 float-start">نام کاربری</label>
+                        <span class="input-group-text" id="UserName"><img src="Images/user_icon.svg" alt=""></span>                      
+                        <input type="text" class="form-control col-12" id="UserName" placeholder="نام کاربری">
+                      </div>
+                      <!-- Password -->
+                      <div class="input-group mb-3 float-start">
+                        <label for="Password" class="form-label col-6 text-start float-start">رمز عبور</label>
+                        <a href="ForgetPassword.html" class="form-label col-6 text-end float-end">رمزم را فراموش کردم</a>
+                        <span class="input-group-text" id="Password"><img src="Images/key-fill.svg" alt=""></span>   
+                        <input type="password" class="form-control col-12" id="Password" placeholder="رمز عبور">
+                      </div>
+                      <!-- btn-login -->
+                      <a href="UserProfile.html" class="btn btn-success col-12 p-2">
+                        ورود به پروفایل کاربری
+                      </a>
+                      <!-- Sign-in -->
+                      <div class="mt-3 col-12 float-start fs-13px text-center">
+                        <span>کاربر جدید هستید؟</span>
+                        <a href="Register.html">
+                          عضویت در سافت 98
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1848,27 +1666,6 @@
                           </a>
                       </p>
                     </div>
-                    <!-- btn-more-softwareList script for scrolling up to show more list -->
-                    <script>
-                      // $('.collapse').on('shown.bs.collapse', function(e) {
-                      //   var $card = $(this).closest('#more-softwareList');
-                      //   var $open = $($(this).data('parent')).find('.collapse.show');
-
-                      //   var additionalOffset = 300;
-                      //   if($card.prevAll().filter($open.closest('#more-softwareList')).length !== 0)
-                      //   {
-                      //         additionalOffset =  $open.height();
-                      //   }
-                      //   $('html,body').animate({
-                      //     scrollTop: $card.offset().top - additionalOffset
-                      //   }, 500);
-                      //  });
-                      $("#btn-more-softwareList").click(function() {
-                        $([document.documentElement, document.body]).animate({
-                            scrollTop: $("#softwareList").offset().top - 20
-                        }, 500);
-                      });
-                    </script>
                   </div>
                   <!-- Ad-2 -->
                   <div class="col-12 float-start mt-4 position-relative d-block" style="flex-grow: 1;">
@@ -2033,839 +1830,1015 @@
                 </div>
                 <!-- left -->
                 <div class="left col-lg-8 col-md-12 xs_col float-lg-end float-md-start">
-                  <ul id="cmt" class="col-12 float-start list-unstyled mb-0 mt-4" style="background-color: #ededed;">
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                  <ul class="col-12 float-start list-unstyled mb-0" style="background-color: #ededed;">
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px admin_replay">(مدیریت سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-                                اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند. لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن صفحه و ارائه شکل کلی طرح استفاده می‌کنند.
-                                <br>
-                                طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند. 
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند. لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن صفحه و ارائه شکل کلی طرح استفاده می‌کنند.
-<br><br>
-طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند.
-<br>
-از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما نشان دهند که قالب طراحی شده بعد از اینکه متن در آن قرار میگرد چگونه خواهد بود و فونت ها و اندازه ها چگونه در نظر گرفته شده است.
-<br><br>
-نکته بعدی در مورد متن ساختگی لورم ایپسوم این است که بعضی از طراحان وبسایت و گرافیست کاران بعد از آنکه قالب و محتوای مورد نظرشون را ایجاد کردند از یاد می‌برند که متن لورم را از قسمتهای مختلف سایت حذف کنند و یا با متن دیگری جایگزین کنند. به همین دلیل اغلب اوقات ما با وبسایتهایی مواجه می‌شویم که در گوشه و کنار صفحات آنها متن لورم ایپسوم هنوز وجود دارد و حذف نشده است که این نشان دهنده بی توجهی طراحان است.
-
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px admin_replay">(مدیریت سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-                                اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند. لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن صفحه و ارائه شکل کلی طرح استفاده می‌کنند.
-                                <br>
-                                طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند. 
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند. لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن صفحه و ارائه شکل کلی طرح استفاده می‌کنند.
-<br><br>
-طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند.
-<br>
-از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما نشان دهند که قالب طراحی شده بعد از اینکه متن در آن قرار میگرد چگونه خواهد بود و فونت ها و اندازه ها چگونه در نظر گرفته شده است.
-<br><br>
-نکته بعدی در مورد متن ساختگی لورم ایپسوم این است که بعضی از طراحان وبسایت و گرافیست کاران بعد از آنکه قالب و محتوای مورد نظرشون را ایجاد کردند از یاد می‌برند که متن لورم را از قسمتهای مختلف سایت حذف کنند و یا با متن دیگری جایگزین کنند. به همین دلیل اغلب اوقات ما با وبسایتهایی مواجه می‌شویم که در گوشه و کنار صفحات آنها متن لورم ایپسوم هنوز وجود دارد و حذف نشده است که این نشان دهنده بی توجهی طراحان است.
-
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
+                          </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
                     </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    <li class="col-12 float-start pb-4 pt-4" style="border-bottom: 1px solid rgb(170, 169, 169);">
+                      <div class="col-12 float-start" style="border: 1px solid rgb(170, 169, 169);">
+                        <div class="col-12 float-start">
+                          <!-- topic -->
+                          <div id="topic" class="col-12 float-start p-4 fs-xxl-16px fs-14px" style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0);">
+                            <span class="col">
+                              <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
                             </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px admin_replay">(مدیریت سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
+                            <!-- program-name -->
+                            <a href="SecondPage.html" class="col text-success">
+                              <!-- EN-name -->
+                              <span>
+                                Lorem ipsum dolor sit amet, consectetuer
+                              </span>
+                              <!-- Per-name -->
+                              <span>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم 
+                              </span>
+                            </a>
+                          </div>
+                          <!-- Category / PostAdmin / View / Date -->
+                          <div class="sub_topic col-12 float-start p-2 fs-10px" style="background-color: #f7f7f7;">
+                            <div class="row">
+                              <!-- Category -->
+                              <div id="Category" class="col-md-3 col-sm-4 xs_col d-table" style="border-left: 1px solid #808080;">
+                                <span>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-folder-symlink-fill" viewBox="0 0 16 16">
+                                    <path d="M13.81 3H9.828a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 6.172 1H2.5a2 2 0 0 0-2 2l.04.87a1.99 1.99 0 0 0-.342 1.311l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3zM2.19 3c-.24 0-.47.042-.683.12L1.5 2.98a1 1 0 0 1 1-.98h3.672a1 1 0 0 1 .707.293L7.586 3H2.19zm9.608 5.271-3.182 1.97c-.27.166-.616-.036-.616-.372V9.1s-2.571-.3-4 2.4c.571-4.8 3.143-4.8 4-4.8v-.769c0-.336.346-.538.616-.371l3.182 1.969c.27.166.27.576 0 .742z"/>
+                                  </svg>
+                                </span>
+                                <a href="#!" class="text-dark">
+                                  نام دسته اصلی
+                                </a>
+                                <span>/</span>
+                                <a href="#!" class="text-black">
+                                  نام دسته فعلی
+                                </a>
                               </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
+                              <!-- AdminPost -->
+                              <div id="AdminPost" class="col-md-3 col-sm-4 xs_col d-table text-center" style="border-left: 1px solid #808080;">
+                                <a class="d-table-cell align-middle text-dark">
+                                  <span class="pe-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" 
+                                         fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+                                    </svg>
+                                  </span>
+                                  AdminPost Name
+                                </a>
+                              </div>
+                              <!-- View -->
+                              <div id="View" class="col-md-3 col-sm-4 xs_col d-table">
+                                <span class="d-table-cell" style="width: 20px;">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" 
+                                       fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                  </svg>
+                                </span>
+                                <span class="d-table-cell align-middle">500k</span>
+                              </div>
+                              <!-- Date -->
+                              <div class="col d-table float-end text-end">
+                                <span class="d-table-cell align-middle" style="color: #a8a8a8;">6 آذر 1401</span>
                               </div>
                             </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-                                اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند. لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن صفحه و ارائه شکل کلی طرح استفاده می‌کنند.
-                                <br>
-                                طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند. 
+                          </div>
+                          <!-- Desc -->
+                          <div class="desc col-12 float-start p-4 pt-3 pb-2 fs-13px border-end-0 border-start-0" style="background-color: #ffffff; border: 1px solid rgb(170, 169, 169);">
+                            <!-- pic -->
+                            <div class="col-lg-3 col-md-12 float-lg-end float-md-start">
+                              <a class="col-12 float-start text-center">
+                                <img src="Images/pc_pic1.jpg" class="float-lg-end text-center" style="margin: 0 auto;" alt="">
+                              </a>
+                            </div>
+                            <!-- text -->
+                            <div class="col-lg-9 col-md-12 float-lg-start float-md-end">
+                              <p class="col-12 lh-lg" style="color: #504f4f;">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. 
                               </p>
                             </div>
                           </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                            </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
-                              </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند. لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن صفحه و ارائه شکل کلی طرح استفاده می‌کنند.
-<br><br>
-طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند.
-<br>
-از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما نشان دهند که قالب طراحی شده بعد از اینکه متن در آن قرار میگرد چگونه خواهد بود و فونت ها و اندازه ها چگونه در نظر گرفته شده است.
-<br><br>
-نکته بعدی در مورد متن ساختگی لورم ایپسوم این است که بعضی از طراحان وبسایت و گرافیست کاران بعد از آنکه قالب و محتوای مورد نظرشون را ایجاد کردند از یاد می‌برند که متن لورم را از قسمتهای مختلف سایت حذف کنند و یا با متن دیگری جایگزین کنند. به همین دلیل اغلب اوقات ما با وبسایتهایی مواجه می‌شویم که در گوشه و کنار صفحات آنها متن لورم ایپسوم هنوز وجود دارد و حذف نشده است که این نشان دهنده بی توجهی طراحان است.
-
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                            </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
-                              </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                            </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
-                              </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                            </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px admin_replay">(مدیریت سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
-                              </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-                                اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند. لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن صفحه و ارائه شکل کلی طرح استفاده می‌کنند.
-                                <br>
-                                طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند. 
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="col-12 float-start">
-                      <div class="col-12 float-start">
-                        <!-- topic -->
-                        <div id="topic" class="col-12 float-start p-2 fs-13px" 
-                             style="background-color: #f7f7f7;border-bottom: 2px solid rgb(0, 134, 0); ">
-                          <span class="col float-start">
-                            <img src="Images/sec_icon2.svg" width="30" height="30" alt="">
-                          </span>
-                          <!-- program-name -->
-                          <a href="SecondPage.html" class="col-11 text-success float-start pt-1 pt-xl-1 pt-lg-2 fw-bold">
-                            <!-- EN-name -->
-                            <span>
-                              Lorem ipsum dolor sit amet, consectetuer لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
-                            </span>
-                          </a>
-                        </div>
-                        <!-- comment -->
-                        <div id="comment" class="col-12 float-start pb-0">
-                          <!-- cmt_username_state_date_replyBtn_texts_replys -->
-                          <div class="col-12 float-start">
-                            <!-- cmt_username_state_date_replyBtn -->
-                            <div class="col-12 float-start p-3 cmt_username_state_date_replyBtn">
-                              <!-- cmt_username_state_date -->
-                              <div class="col-9 float-start">
-                                <div class="col-12 float-start">
-                                  <span class="fw-bold fs-13px">نام یا یوزرنیم کاربر</span>
-                                  <span class="fs-11px">(میهمان یا عضو سایت)</span>
-                                  <span>-</span>
-                                  <span class="fs-11px">1401/09/19</span>
-                                </div>
-                              </div>
-                              <!-- cmt_replyBtn -->
-                              <div class="col-3 float-end">
-                                <div class="col-12 float-end text-end">
-                                  <button class="btn btn-outline-success fs-12px" data-bs-toggle="modal" data-bs-target="#cmt_replyBtnModal">
-                                    پاسخ
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                            <!-- cmt_texts -->
-                            <div class="col-12 float-start p-3 cmt_texts">
-                              <p class="col-12 float-start mb-0 fs-13px lh-lg">
-اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند. لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) متنی ساختگی و بدون معنی است که برای امتحان فونت و یا پر کردن فضا در یک طراحی گرافیکی و یا صنعت چاپ استفاده میشود. طراحان وب و گرافیک از این متن برای پرکردن صفحه و ارائه شکل کلی طرح استفاده می‌کنند.
-<br><br>
-طراحان سایت هنگام طراحی قالب سایت معمولا با این موضوع رو برو هستند که محتوای اصلی صفحات آماده نیست. در نتیجه طرح کلی دید درستی به کار فرما نمیدهد. اگر طراح بخواهد دنبال متن های مرتبط بگردد تمرکزش از روی کار اصلی برداشته میشود و اینکار زمان بر خواهد بود. همچنین طراح به دنبال این است که پس از ارایه کار نظر دیگران را در مورد طراحی جویا شود و نمی‌خواهد افراد روی متن های موجود تمرکز کنند.
-<br>
-از آنجا که لورم ایپسوم، شباهت زیادی به متن های واقعی دارد، طراحان معمولا از لورم ایپسوم استفاده میکنند تا فقط به مشتری یا کار فرما نشان دهند که قالب طراحی شده بعد از اینکه متن در آن قرار میگرد چگونه خواهد بود و فونت ها و اندازه ها چگونه در نظر گرفته شده است.
-<br><br>
-نکته بعدی در مورد متن ساختگی لورم ایپسوم این است که بعضی از طراحان وبسایت و گرافیست کاران بعد از آنکه قالب و محتوای مورد نظرشون را ایجاد کردند از یاد می‌برند که متن لورم را از قسمتهای مختلف سایت حذف کنند و یا با متن دیگری جایگزین کنند. به همین دلیل اغلب اوقات ما با وبسایتهایی مواجه می‌شویم که در گوشه و کنار صفحات آنها متن لورم ایپسوم هنوز وجود دارد و حذف نشده است که این نشان دهنده بی توجهی طراحان است.
-
-                              </p>
-                            </div>
+                          <!-- Read_more_btn -->
+                          <div class="Read_more_btn col-12 float-start p-3" style="background-color: #f7f7f7;">
+                            <a href="SecondPage.html" class="btn btn-success text-white p-2 w-25">
+                              ادامه مطلب
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -2880,8 +2853,12 @@
                         </li>
                         <li class="page-item active"><a class="page-link" href="#!">1</a></li>
                         <li class="page-item"><a class="page-link" href="#!">2</a></li>
-                        <li class="page-item d-none d-sm-block disabled"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item d-none d-sm-block"><a class="page-link" href="#!">3</a></li>
+                        <li class="page-item d-none d-sm-block"><a class="page-link" href="#!">4</a></li>
                         <li class="page-item d-none d-sm-block"><a class="page-link" href="#!">5</a></li>
+                        <li class="page-item d-none d-md-block"><a class="page-link" href="#!">6</a></li>
+                        <li class="page-item d-none d-sm-block disabled"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item d-none d-sm-block"><a class="page-link" href="#!">999</a></li>
                         <li class="page-item">
                           <a class="page-link" href="#!">صفحه بعد</a>
                         </li>
